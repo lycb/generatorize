@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Generatorize!</title>
+        <link rel="stylesheet" href="/assets/style.css" />
+    </head>
+    <body>
+        <h1 class="page-title">Generatorize!</h1>
+        <form id="generate-form" action="/generate" method="post">
+            <input
+                name="prefix"
+                placeholder="Prefix"
+            />
+            <input
+                name="postfix"
+                placeholder="Postfix"
+            />
+
+            <button type="submit" id="generate-button">Generate</button>
+        </form>
+        <h3 class="res">{{.GeneratedName}}</h3>
+        <!-- <script>
+            document.getElementById("generate-button").onclick = async (e) => {
+                var req = await fetch("/generate").then(r => r.json())
+                document.getElementById("res").innerHTML = req.GeneratedName
+            }
+        </script> -->
+    </body>
+</html>

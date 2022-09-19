@@ -1,0 +1,20 @@
+html, body {
+    background-color: palevioletred;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-title {
+    color: white;
+}
+
+button {
+    background-color: white;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.res {
+    padding-top: 20px;
+    padding-left: 5px;
+    color: white;
+}
